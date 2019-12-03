@@ -1,0 +1,80 @@
+body{
+    background: #F8F9FA;
+}
+/* style navbar */
+ nav{
+    box-shadow: 1px 0px 10px #444;
+}
+header .span-email a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding: 0;
+
+}
+header nav ul{
+    margin-bottom: 0px !important;
+}
+.section-form .form-group ,.login form {
+    direction: rtl;
+}
+ .section-form .background-form input, .login form input,.section-form .background-form select{
+    background-color: #fafafa;
+    border-color: #eee;
+    padding: 10px;
+    height: 60px;
+    font-size: 1.2rem;
+} 
+.section-form .background-form ,.login .background-form{
+    background: #fff;
+    padding: 20px 50px;
+    margin: 20px 0px;
+}  
+.section-form .background-form .submit-style{
+    text-align: center;
+}
+.section-form .background-form .submit-style input{
+    width: 70%;
+    background: #3AB54A;
+    color: #fff;
+    font-size: 2rem;
+    height: 46px;
+    padding: 0;
+    border-width: 1px;
+}
+@media(max-width:480px){
+    .section-form .background-form input,.section-form .background-form select{
+        height: 3rem;
+    }
+}
+/* start login */
+.login form input{
+    height: 3rem;
+}
+.login form input[type="checkbox"]{
+    margin-top:-12px;
+    width: 16px;
+}
+.login form button{
+    width: 48%;
+    background: #3AB54A;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 46px;
+    padding: 0;
+}
+.login form button a{
+    color: #fff;
+}
+.login form button.color-button
+{
+    background:#2D3E50
+}
+.login form{
+    padding-top: 10px;
+}
+@media(max-width:480px){
+    .login form button {
+        font-size: 1em;
+    }
+}

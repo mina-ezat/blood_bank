@@ -1,0 +1,46 @@
+body{
+   background:#ccc;
+}
+/* navbar */
+body{
+    background: #F8F9FA;
+}
+/* style navbar */
+ nav{
+    box-shadow: 1px 0px 10px #444;
+}
+header .span-email a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding: 0;
+
+}
+header nav ul{
+    margin-bottom: 0px !important;
+}
+/* navbar */
+.one-article .title-article{
+    overflow: hidden;
+    padding: 8px;
+    background: #2D3E50;
+    color: #fff;
+    margin: 20px 0;
+}
+.one-article .title-article h3{
+    margin: 0;
+}
+.one-article .title-article  .icon-heart i
+{
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+.one-article .dv-text p
+{
+    background: #fff;
+    padding: 15px 10px;
+    line-height: 2;
+    color: #444;
+}

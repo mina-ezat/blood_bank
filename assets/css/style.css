@@ -1,0 +1,500 @@
+
+/* start style header  */
+ body{
+    font-family: 'PT Sans', sans-serif;
+} 
+header .top-page{
+   background: #2D3E50;
+   color:#fff;
+   padding: 10px 0px;
+   font-size: 0.9em;
+}
+header .top-page .activ{
+    color:#f00
+}
+header .top-page .menu-nav{
+    direction: rtl;
+}
+/* header .top-page .menu-nav .dropdown-menu{
+    margin-top: 30px;
+} */
+
+header .top-page .menu-nav .dropdown-menu a
+{
+    padding: 9px;
+    font-size:17px;
+    color:#444
+}
+header .top-page .menu-nav .dropdown-menu
+{
+    width: 200px;
+    padding: 0;
+}
+header .top-page .menu-nav .dropdown-menu a .fa{
+    color:#777;
+    padding: 2px;
+    font-size: 21px;
+}
+header .top-page .menu-nav .dropdown-menu a:hover{
+    background: #2D3E50;
+    color:#fff;
+}
+header .top-page .span-email{
+    float: left;
+}
+header .top-page .div-icon{
+    float: left;
+}
+header .top-page .div-icon span{
+    padding: 0 3px;
+}
+header .top-page .div-lang{
+    float: right;
+}
+nav{
+    background: #F9F9F9;
+}
+nav ul li:nth-of-type(7){
+    padding-right: 80px;
+    text-decoration: underline;
+    padding-bottom: 3px;
+    color:rgb(38, 91, 148) 
+}
+nav ul li button{
+    background:#2D3E50 ;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+}
+nav .border-left {
+    border-right: 1px solid #dee2e6!important;
+    height: 29px;
+}
+
+nav ul li button a {
+    padding: 6px 25px;
+    color: #fff;
+}
+nav ul li button a:hover{
+    color:red;
+    text-decoration: none;
+}
+nav .activt{
+    border-bottom: 2px solid #de575b;
+    padding-bottom: 32px;
+    color: #ba1f23 !important;
+}
+nav ul{
+    direction: rtl;
+    color:rgba(0,0,0,.5);
+}
+header nav ul{
+    margin-bottom: -27px !important;
+    float: left;
+}
+header nav
+{
+padding: 0px !important;
+}
+@media(max-width:920px){
+    nav .border-left {
+        border-right: 0px solid #dee2e6!important;
+        height: 29px;
+    }  
+    nav ul {
+    float: right !important;   
+ }
+ nav .activt{
+    border-bottom: 2px solid #de575b;
+    padding-bottom: 4px;
+}
+header nav {
+    padding-right: 10px !important;
+}
+}
+.slider .item-background {
+   width: 100%;
+   background: url("../img/header.jpg")no-repeat center center;
+   height: 400px;
+   background-size: cover;
+   line-height: 2;
+   overflow: hidden;
+}
+.slider{
+    height: 400px;
+}
+.slider .slick-prev, .slick-next {
+   right: 0;
+}
+.slider .slick-dots {
+     bottom: 10px;
+
+
+}
+.slider .slick-dots li
+{
+    margin: 0 0px;
+}
+.slider .slick-dots li button:before{
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+    color:#fff;
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    /* color: #9d2c2c; */
+    border: 1px solid #f00;
+    border-radius: 50%;
+    padding: -18px;
+    background: #fff;
+    color:#fff
+}
+.slider .w-slider{
+    width: 40%;
+    margin-top:100px;
+    float: right;
+}
+@media(max-width:1080px){
+    .slider .w-slider{
+   
+    line-height: 1.7;
+    }
+  
+}
+@media(max-width:480px){
+    .slider .w-slider{
+    width: 100%;
+    margin-top: 34px;
+    line-height: 1.7;
+    }
+    .slider span{
+        font-weight: normal;
+    }
+}
+.slider h2{
+    color:#b91f1f;
+    font-weight: bold;
+}
+.slider span{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .slider {
+} */
+/* end style header  */
+/* buttom */
+/* start section about */
+.section-about
+{
+ 
+    background: url("../img/about.png")no-repeat center center;
+    background-size: cover;
+overflow: hidden;
+}
+.section-about div {
+    width: 70%;
+    float: right;
+    padding: 10px 9px 0px;
+}
+@media(max-width:920px){
+    .section-about div {
+        width: 100%;
+    }
+}
+.section-about div p
+{
+    text-align: center;
+    line-height: 2;
+    font-size: 19px;
+}
+.slick-slider .slick-track, .slick-slider .slick-list{
+    width: 100%;
+}
+.articls .card-title ,.articls h2, h2{
+    color:#b91f1f
+}
+.articls.card{
+    margin: 1px;
+    position: relative;
+}
+.articls .card .icon-heart{
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    color: #2D3E50;
+    background: #fff;
+    padding: 5px 9px;
+    border-radius: 50%;
+}
+.articls .card .activ{
+    color: #fff;
+    /* background: #2D3E50; */
+        background: #f00;
+
+}
+.articls{
+    padding: 52px 0px;
+    background: url("../img/subtle-pattern-1.jpg")no-repeat center center;
+      background-size: cover;
+}
+.articls .next ,.articls .prev{
+    opacity: .5;
+    padding: 3px;
+    font-size: 20px;} 
+    .articls .bu-style
+    {
+        text-align: center;
+        margin: auto;
+        display: list-item;
+        padding: 6px;
+    }
+/* end section about */
+/* start blood-donation */
+.title-blood-donation{
+    text-align: center;
+    margin-top: 30px;
+}
+/* end blood-donation */
+.bu-style{
+    background: #2D3E50;
+    border: none;
+    color: #fff;
+    padding: 2px;
+    width: 130px;
+}
+select {
+    font-family: 'FontAwesome', 'Second Font name'
+  }
+  .blood-donation{
+    background:#eee;
+     padding: 20px;
+  }
+  .blood-donation form{
+      text-align: center;
+      margin-bottom: 35px;
+  }
+  .blood-donation .button-blood {
+    margin-top: -3rem;
+  }
+.blood-donation select {
+    width: 23px;
+    border-radius: 18px 0px 0px 18px;
+    padding: 9px 18px;
+    border: none;
+    margin-top: -1.4px;
+  }
+  .blood-donation input 
+  {
+    border: navajowhite;
+    padding: 5px 113px;
+    margin-left: -2px;
+    border-radius: 0px 18px 18px 0px;
+    direction: rtl;
+    padding-right: 11px;
+    padding-top: 7px;
+  }
+  .blood-donation .media-style
+  {
+    background: #fff;
+    padding:6px;
+    line-height: 2;
+    border-radius: 0px 80px 80px 0px;
+    margin-top: 15px;
+  }
+   /* media ///////////////////// */
+  @media(max-width:770px){
+  .res-input
+    {
+        display: block;
+        margin: 19px 0px 19px 50px;
+      }
+  }
+  @media(max-width:480px){
+    .blood-donation .blood-type, .blood-donation .your-city
+      {
+          width: 9rem;
+        }
+        .blood-donation .button-blood{
+            margin-top: 0rem;
+        }
+.blood-donation .media-style
+  {
+    border-radius: 0px 0px 35px 35px;
+  }  
+    }
+    /* media /////////////// */
+  .blood-donation  ul{
+      list-style: none;
+  }
+
+  .blood-donation .media-blood-type
+  {
+    font-size: 3rem;
+    background: #ddd;
+    padding: 8px 30px;
+    border-radius: 50%;
+    /* margin-top: -26px; */
+    margin-right: -7px;
+    width: 116px;
+  }
+  @media(max-width:920px){
+    .blood-donation .media-blood-type
+    {
+        font-size: 2em;
+        background: #ddd;
+        padding: 2px 21px 7px 0px;
+        border-radius: 53%;
+        /* margin-top: -26px; */
+        margin-right: -7px;
+        width: 73px;
+        height: 67px;
+      }
+      .blood-donation .media-body {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+  }
+ 
+  .blood-donation .bu-style
+  {
+    margin-top: 14%;
+    background: #eee;
+    padding: 6px;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .blood-donation  .media-body
+{
+    font-size: 20px;
+}
+.blood-donation .searsh-input{
+background: url("../img/search-icon.png") no-repeat 4px 4px;
+background-size: contain;
+background-color: #fff;
+border-radius: 50%;
+height: 41px;
+margin-bottom: -16px;
+}
+.blood-donation .button-style
+{
+    background: #2D3E50;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    padding: 5px;
+    margin-top: 11px;
+    width: 130px;
+    text-align: center;
+}
+.blood-donation .btn-info
+{
+    background: #fff;
+    color: #222;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: navajowhite;
+}
+/* end blood type */
+/* start contact me */
+.content-we{
+    background: url("../img/call.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+.content-we .icon-what
+{
+    background: #39BA27;
+    padding: 17px 31px 17px 0px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.content-we .icon-what img
+{
+    width: 4rem;
+}
+.content-we .body-content
+{
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content-we .body-content h2{
+    font-weight: bold;
+}
+.progect-app{
+    background: url("../img/BG-phone.png") no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    line-height: 2;
+    font-size: 17px;
+    font-weight: bold;
+}
+.progect-app .icon-img img
+{
+    width: 10rem;
+
+}
+.progect-app .icon-img{
+    text-align: center;
+}
+footer{
+    background-color: #123;
+    color: #fff;
+    line-height: 2;
+    padding: 35px 0px 0px;}
+footer .first-h4, footer .activ{
+    color:#b91f1f
+}
+footer ul{
+    list-style: none;
+    margin: 0 ;
+}
+footer .footer-img img{
+    width: 10rem;
+    padding: 11px;
+
+}
+footer a{
+    color:#fff
+}
+ footer .footer-end {
+    background: #000;
+    padding: 10px 0px;
+    color:#fff;
+    direction: rtl;
+
+}
+footer .footer-end .icon{
+    padding: 20px;
+}
+footer .footer-end .icon .fa{
+    padding: 3px;
+}
+/* {
+    width: 23px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px 15px;
+} */
+/* buttom */
+.breadcrumb {
+    
+    padding: .90rem 1rem;
+    background-color: #fff;
+    margin: 13px 0;
+    direction: rtl;
+}
+.color-login{
+    color: #E4A431;
+}

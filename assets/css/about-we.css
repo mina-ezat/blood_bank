@@ -1,0 +1,44 @@
+body{
+    background: #F8F9FA;
+}
+/* style navbar */
+nav{
+    box-shadow: 1px 0px 10px #444;
+}
+header .span-email a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding: 0;
+
+}
+header nav ul{
+    margin-bottom: 0px !important;
+}
+.top-page .login {
+    color: #E4A431;
+}
+/* style navbar */
+/* start about */
+.about figure
+{
+    margin: 19px 0;
+    padding: 40px 10px;
+    background: #fff;
+}
+.about img{
+    padding: 20px;
+    height: 150px;
+}
+/* end about */
+/* start components */
+.components{
+    direction: rtl;
+}
+.components .breadcrumb {
+    
+    padding: .90rem 1rem;
+    background-color: #fff;
+    margin: 13px 0;
+}
+/* end components */

@@ -1,0 +1,85 @@
+body{
+    background: #F8F9FA;
+}
+/* style navbar */
+ nav{
+    box-shadow: 1px 0px 10px #444;
+}
+header .span-email a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding: 0;
+}
+header nav ul{
+    margin-bottom: 0px !important;
+}
+/* start connect section */
+.card-header{
+    text-align: center;
+    background: #2D3E50;
+    color: #fff;
+    font-size: 1.7em;
+    padding: 4px;
+}
+.connect .card .img-top img{
+    width: 69%;
+    padding:5px 0px
+}
+.connect .card .list-group-item {
+    border: none;
+    color:#555
+}
+.connect .card .title-card{
+    text-align: center;
+    color: #f00;
+    font-size: 20px;
+}
+.connect .card  .icon-card span{
+    padding: 0px 6px;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px 5px;
+    font-size: 2.5em;
+}
+.connect .card  .icon-card i{
+    color: #fff;  
+    width: 10%;
+    padding: 10px 0px;
+}
+.connect .card  .icon-card span:nth-of-type(1){
+background:#1AD642;
+}
+.connect .card  .icon-card span:nth-of-type(2){
+    background:#74BDF0;
+    }
+.connect .card  .icon-card span:nth-of-type(3){
+    background:#C335A3;
+    }
+.connect .card  .icon-card span:nth-of-type(4){
+    background:#3A549F;
+    }
+.connect .card  .icon-card span:nth-of-type(5){
+    background:#1AD641;
+    }
+.connect .card  .icon-card span:nth-of-type(6){
+    background:#DC4A39;
+    }
+
+.connect form{
+    direction: rtl;
+}
+.connect form input
+{
+    font-size: 20px;
+    height: 50px;
+    border-color: #eee;
+}
+.connect form textarea
+{
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    height: 83px;
+    border-color: #eee;
+}

@@ -1,0 +1,52 @@
+body{
+    background: #F8F9FA;
+}
+/* style navbar */
+ nav{
+    box-shadow: 1px 0px 10px #444;
+}
+header .span-email a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding: 0;
+
+}
+header nav ul{
+    margin-bottom: 0px !important;
+}
+.one-donetion{
+direction: rtl;
+font-size: 18px;
+}
+.one-donetion .div-static{
+background: #e3e3e3;
+padding: 15px;
+}
+.one-donetion .div-dynamic{
+    background: #eee;
+    padding: 15px;
+}
+.div-parend{
+    margin: 8px;
+}
+.one-donetion .backround-section{
+    background: #fff;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.one-donetion article
+{
+    line-height: 1.7;
+    font-size: 1.3em;
+    color: #333;
+}
+.one-donetion article p
+{
+    border:1px solid#eee;
+}
+.one-donetion figure img
+{
+    border: 3px solid #dbdbdb;
+    height: 300px;
+}
