@@ -95,6 +95,8 @@
     </div>`
 $(".blood-donation .body-donation").html(html)
 $(".blood-donation .body-donation-page").html(html)
+          var datas =text.data.data;
+          console.log(text);
   }
         }
       }
