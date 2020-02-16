@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/57676885/74613237-33983e80-5115-11ea-9472-becf8f7a7571.png" width="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/57676885/74613255-588cb180-5115-11ea-97e7-c51f22bbafee.png" width="400"></p>
 
 
 ## Blood Bank
